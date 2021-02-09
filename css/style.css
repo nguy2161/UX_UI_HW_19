@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+
+}
+nav ul li a {
+    color: #404040;
+    font-weight: medium;
+    text-decoration: none;
+    font-size: 14px;
+}  
+
+nav ul li a:hover {
+    color: #d14224;
+}    
+.logo{
+    cursor: pointer;
+    margin:10px 40px ;
+    max-width: 85%;
+    max-height: 85%;
+    align-items: center;
+}
+/*header*/
+/*banner*/
+.banner {
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner h1 {
+    font-weight: 600;
+    font-size: 55px;
+}
+.banner h3 {
+    font-size:300;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+.banner_text {
+    margin: 150px;
+}
+
+.work_header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.grid {
+    margin: 80px 175px;
+    grid-gap:40px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.grid > cards{
+border:none;
+box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);;
+}
+cards {
+    height: 325px;
+    width: auto;
+}
+.card_CP{
+    display: flex;
+    padding-top: 25px;
+    background-color: #fbf1e9;
+}
