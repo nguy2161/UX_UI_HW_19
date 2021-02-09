@@ -115,6 +115,14 @@ cards {
     justify-content: center;
     font-size: 25px;
 }
+/*Contact Button*/
+.contact_button{
+   padding: 75px 0;
+   justify-content: center;
+   align-items: center;   
+}
+
+
 /*Footer*/
 .footer_container {
     display: flex;
@@ -141,15 +149,14 @@ cards {
     height: 400px;
     background-color: white;
     border-radius: 4px;
-    padding: 15px;
-    text-align: center;
-    position: relative;
+    padding: 20px 40px;
+    position: absolute;
 
 }
 input {
-    width: 50%;
+    width: 100%;
     display: block;
-    margin: 15px auto;
+    margin: 12px auto;
 }
 .button {
     text-align: center;
@@ -162,13 +169,33 @@ input {
     text-decoration: none;
 }
 .button:hover{
-    color: #965649;
+    color: white;
+    background-color: #d14224;
 }
 .close{
     position: absolute;
     top: 0;
-    right: 14px;
+    right: 30px;
     font-size: 42px;
     transform: rotate(45deg);
     cursor: pointer;
+}
+.Message input{
+    height: 75px;
+}
+.modal h3{
+    text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+    color: #d14224;
+}
+.modal h2{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    padding:   4px 0;
+}
+.modal .button{
+    float: right;
+    margin-top: 10px;
 }
