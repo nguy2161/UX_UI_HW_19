@@ -49,16 +49,23 @@ nav ul li a:hover {
 /*banner*/
 .banner {
     min-height: 100vh;
-    justify-content: center;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: wrap;
+
+}
+.banner_2 {
+    max-width: 525px;
 }
 .banner .button {
     margin-top: 30px;
 }
 .banner h1 {
     font-weight: 600;
-    font-size: 55px;
+    font-size: 52px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    color: #d14224;
 }
 .banner h3 {
     font-size:300;
