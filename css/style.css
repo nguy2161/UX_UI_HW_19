@@ -117,9 +117,9 @@ cards {
 }
 /*Contact Button*/
 .contact_button{
-   padding: 75px 0;
-   justify-content: center;
-   align-items: center;   
+   padding: 0;
+   font-size: 14px;
+   cursor: pointer;
 }
 
 

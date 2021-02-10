@@ -1,8 +1,10 @@
 console.log("Your index.js file is loaded correctly!");
 
-document.getElementsByClassName('.button').addEventListener('click',fuction(){
-    document.querySelector('.modal').style.display='flex';
+document.getElementById('button').addEventListener("click", function()
+ {
+	document.querySelector('.modal').style.display = 'flex';
 });
-document.querySelector('.close').addEventListener('click',function(){
 
-})
+document.querySelector('.close').addEventListener("click", function() {
+	document.querySelector('.modal').style.display = "none";
+});
