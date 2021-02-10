@@ -180,6 +180,10 @@ input {
     transform: rotate(45deg);
     cursor: pointer;
 }
+.close:hover {
+    color: #7c7c7c;
+}
+
 .Message input{
     height: 75px;
 }
